@@ -1,0 +1,52 @@
+@prefix this: <https://pd.sciai.eu/np/2500767/RA4D2QLgQTXd8Y1xqExnaRAVq8hSsvldgo9o-QBLdSghU>.
+@prefix sub: <https://pd.sciai.eu/np/2500767/RA4D2QLgQTXd8Y1xqExnaRAVq8hSsvldgo9o-QBLdSghU/>.
+@prefix np: <http://www.nanopub.org/nschema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix npx: <http://purl.org/nanopub/x/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+sub:Head {
+this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication
+}
+sub:assertion {
+sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
+    <https://pd.sciai.eu/ontology/property/assertionId> 2500767;
+    <https://pd.sciai.eu/ontology/property/confidence> 0.95;
+    <https://pd.sciai.eu/ontology/property/effectDirection> "negative";
+    <https://pd.sciai.eu/ontology/property/evidenceTier> 3;
+    <https://pd.sciai.eu/ontology/property/hasObject> <https://pd.sciai.eu/ontology/entity/D014409>;
+    <https://pd.sciai.eu/ontology/property/hasRelation> <https://pd.sciai.eu/ontology/relation/decreases>;
+    <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/SELF%3Aglp%202>.
+<https://pd.sciai.eu/ontology/entity/D014409> a <https://pd.sciai.eu/ontology/type/Protein>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "TNF-α".
+<https://pd.sciai.eu/ontology/entity/SELF%3Aglp%202> a <https://pd.sciai.eu/ontology/type/Compound>;
+    <https://pd.sciai.eu/ontology/relation/decreases> <https://pd.sciai.eu/ontology/entity/D014409>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "GLP-2"
+}
+sub:provenance {
+sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21).";
+    prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/41895375/>;
+    prov:wasGeneratedBy <https://sciai.eu/#sciai-lab>;
+    <https://pd.sciai.eu/ontology/property/evidenceStateLabel> "contested";
+    <https://pd.sciai.eu/ontology/property/extractedAt> "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime;
+    <https://pd.sciai.eu/ontology/property/extractionSchema> "universal_pd_v5";
+    <https://pd.sciai.eu/ontology/property/paperType> "animal_study";
+    <https://pd.sciai.eu/ontology/property/species> "Mus musculus";
+    <https://pd.sciai.eu/ontology/property/verbatimContext> "GLP-2 receptor agonist treatment significantly reduced TNF-α expression in the substantia nigra."
+}
+sub:pubinfo {
+this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+    dc:creator <https://orcid.org/0009-0008-6409-2596>;
+    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
+sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
+    npx:hasSignatureTarget this:;
+    npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
+    npx:hasSignature "R4XHkms+nyW3cT90qCKgkR/vHDDaKFYw1uscVLM22cyZrXi7PXDKxNJOCMos1A+la9Q/6KK0RSJgK8Dt40/F0XuCfaDYFpZL/W5ULEaho9EKrp4WAxTEb3dRXuppqOc5J3uirmJYaxgwYWRmMVJ/lwo8TaHPqPEiAf8c7t7evy2tEKqbHgYwGJETPg/K68yH6vltGQbXzkZKZXJq9zO3CFrakIcAQxQIGujENQ6oDZ8rjCouxboA+gPnGi3LVLpOd2X/Dgv9Ag6PyEcgavN6fy/Ui3ZDKt+vmubP9H19xulwj90EQzCk6fpKkaauJnUl54Jvt5/pqCeP6jv6pvdMFg=="
+}

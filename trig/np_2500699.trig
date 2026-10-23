@@ -1,0 +1,51 @@
+@prefix this: <https://pd.sciai.eu/np/2500699/RA6f_SAXumy7UCZlGE5roOo-l0L7nIz17fXB2MHAH-UnU>.
+@prefix sub: <https://pd.sciai.eu/np/2500699/RA6f_SAXumy7UCZlGE5roOo-l0L7nIz17fXB2MHAH-UnU/>.
+@prefix np: <http://www.nanopub.org/nschema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix npx: <http://purl.org/nanopub/x/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+sub:Head {
+this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication
+}
+sub:assertion {
+sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
+    <https://pd.sciai.eu/ontology/property/assertionId> 2500699;
+    <https://pd.sciai.eu/ontology/property/confidence> 0.95;
+    <https://pd.sciai.eu/ontology/property/effectDirection> "unknown";
+    <https://pd.sciai.eu/ontology/property/evidenceTier> 3;
+    <https://pd.sciai.eu/ontology/property/hasObject> <https://pd.sciai.eu/ontology/entity/SELF%3A12%20months>;
+    <https://pd.sciai.eu/ontology/property/hasRelation> <https://pd.sciai.eu/ontology/relation/uses>;
+    <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/D000077270>.
+<https://pd.sciai.eu/ontology/entity/SELF%3A12%20months> a <https://pd.sciai.eu/ontology/type/Biomarker>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "12 months".
+<https://pd.sciai.eu/ontology/entity/D000077270> a <https://pd.sciai.eu/ontology/type/Compound>;
+    <https://pd.sciai.eu/ontology/relation/uses> <https://pd.sciai.eu/ontology/entity/SELF%3A12%20months>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Exendin-4"
+}
+sub:provenance {
+sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21).";
+    prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/24748153/>;
+    prov:wasGeneratedBy <https://sciai.eu/#sciai-lab>;
+    <https://pd.sciai.eu/ontology/property/evidenceStateLabel> "single-source";
+    <https://pd.sciai.eu/ontology/property/extractedAt> "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime;
+    <https://pd.sciai.eu/ontology/property/extractionSchema> "universal_pd_v5";
+    <https://pd.sciai.eu/ontology/property/paperType> "narrative_review";
+    <https://pd.sciai.eu/ontology/property/verbatimContext> "Patients received exenatide via daily injections for 12 months."
+}
+sub:pubinfo {
+this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+    dc:creator <https://orcid.org/0009-0008-6409-2596>;
+    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
+sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
+    npx:hasSignatureTarget this:;
+    npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
+    npx:hasSignature "IR3cW+k64EU93T47lIsADCUATFE1UNjJnW6r0U32du/mnXKDQecyjf9hWVONhpQw0Rc4G0Ol9EKN9YYFGxjirLG+TjYCIvsH5/65L873ktlu0MR3TPq6H2wDeHPQgYupl6Fw/XTRZSouk+i3OMmYF6BGZ45wjgX5NeDRTmcW1DLe2gzLPIkZk9NhxJ1rKDKxNaceGI6mUUYcb2ubBbYsv4gLVC3AVMwy2rUU3uZzo9HzMeOsyJB9orDsulnw+RBtLTow90meRtvjArJHQGxTebc2GAtgBp0g3YIyw7RhoNWd9qHYV6sOKHqW+3TG0OFGxScwH5B3BIIKQ5w+9FNw9A=="
+}

@@ -1,0 +1,49 @@
+@prefix this: <https://pd.sciai.eu/np/2500676/RAZBlwfqGx8nlcSb3foamCEtGOFUOyVY7FJ18JenmbvVg>.
+@prefix sub: <https://pd.sciai.eu/np/2500676/RAZBlwfqGx8nlcSb3foamCEtGOFUOyVY7FJ18JenmbvVg/>.
+@prefix np: <http://www.nanopub.org/nschema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix npx: <http://purl.org/nanopub/x/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+sub:Head {
+this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication
+}
+sub:assertion {
+sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
+    <https://pd.sciai.eu/ontology/property/assertionId> 2500676;
+    <https://pd.sciai.eu/ontology/property/confidence> 0.95;
+    <https://pd.sciai.eu/ontology/property/effectDirection> "neutral";
+    <https://pd.sciai.eu/ontology/property/evidenceTier> 3;
+    <https://pd.sciai.eu/ontology/property/hasObject> <https://pd.sciai.eu/ontology/entity/D007249>;
+    <https://pd.sciai.eu/ontology/property/hasRelation> <https://pd.sciai.eu/ontology/relation/regulates>;
+    <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/SELF%3Aglucagon%20like%20peptide%201%20analogs>.
+<https://pd.sciai.eu/ontology/entity/D007249> a <https://pd.sciai.eu/ontology/type/Pathway>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Inflammation".
+<https://pd.sciai.eu/ontology/entity/SELF%3Aglucagon%20like%20peptide%201%20analogs> <https://pd.sciai.eu/ontology/relation/regulates> <https://pd.sciai.eu/ontology/entity/D007249>
+}
+sub:provenance {
+sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21).";
+    prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/24529526/>;
+    prov:wasGeneratedBy <https://sciai.eu/#sciai-lab>;
+    <https://pd.sciai.eu/ontology/property/evidenceStateLabel> "single-source";
+    <https://pd.sciai.eu/ontology/property/extractedAt> "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime;
+    <https://pd.sciai.eu/ontology/property/extractionSchema> "universal_pd_v5";
+    <https://pd.sciai.eu/ontology/property/paperType> "narrative_review";
+    <https://pd.sciai.eu/ontology/property/verbatimContext> "GLP1 analogs reduce inflammation in transgenic mouse models."
+}
+sub:pubinfo {
+this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+    dc:creator <https://orcid.org/0009-0008-6409-2596>;
+    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
+sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
+    npx:hasSignatureTarget this:;
+    npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
+    npx:hasSignature "hK8xp3mRzv/LMUMcUXpphQLCWpqRXCTgoRny+5lOUBGg2pjZ9sLHJ0hstgcTHpZj3nmiCbXRTHZPCApHgP64HO8VO/r9zoJwvcWdWnPx0mTJ0gc1i6JHwlC/28n1WOrfRrBCz7ZhiBIoxNakmrIGEaj4a1AoCG8+inWdBPc3XBGOxSgesYNOrNS+R9jxXIYuw5FCQrB8g/iYUtbfDE+rou5nG219ooSNmlk262oUOuei0RzYQVAZNUPmUk58kEGa7GGBAQY1wWqIEaHLpxsNPKaBLnxxB/Ae/RMI6sZ1m0wFJ/SAQ/Z57mOOAVZ6k5/oW17znfppQl32u0RZqS/iKA=="
+}

@@ -1,0 +1,50 @@
+@prefix this: <https://pd.sciai.eu/np/2500636/RADq33-gtUf4TayE1e8D7ur-bPkaFfDIClPlSQCVhlXXc>.
+@prefix sub: <https://pd.sciai.eu/np/2500636/RADq33-gtUf4TayE1e8D7ur-bPkaFfDIClPlSQCVhlXXc/>.
+@prefix np: <http://www.nanopub.org/nschema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix npx: <http://purl.org/nanopub/x/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+sub:Head {
+this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication
+}
+sub:assertion {
+sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
+    <https://pd.sciai.eu/ontology/property/assertionId> 2500636;
+    <https://pd.sciai.eu/ontology/property/confidence> 0.95;
+    <https://pd.sciai.eu/ontology/property/effectDirection> "negative";
+    <https://pd.sciai.eu/ontology/property/evidenceTier> 3;
+    <https://pd.sciai.eu/ontology/property/hasObject> <https://pd.sciai.eu/ontology/entity/D011889>;
+    <https://pd.sciai.eu/ontology/property/hasRelation> <https://pd.sciai.eu/ontology/relation/inhibits>;
+    <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/D000077597>.
+<https://pd.sciai.eu/ontology/entity/D000077597> a <https://pd.sciai.eu/ontology/type/Compound>;
+    <https://pd.sciai.eu/ontology/relation/inhibits> <https://pd.sciai.eu/ontology/entity/D011889>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Vildagliptin"
+}
+sub:provenance {
+sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21).";
+    prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/25752913/>;
+    prov:wasGeneratedBy <https://sciai.eu/#sciai-lab>;
+    <https://pd.sciai.eu/ontology/property/evidenceStateLabel> "single-source";
+    <https://pd.sciai.eu/ontology/property/extractedAt> "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime;
+    <https://pd.sciai.eu/ontology/property/extractionSchema> "universal_pd_v5";
+    <https://pd.sciai.eu/ontology/property/paperType> "animal_study";
+    <https://pd.sciai.eu/ontology/property/species> "Rattus norvegicus";
+    <https://pd.sciai.eu/ontology/property/verbatimContext> "Vildagliptin suppressed RAGE overexpression induced by rotenone in the striatum."
+}
+sub:pubinfo {
+this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+    dc:creator <https://orcid.org/0009-0008-6409-2596>;
+    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
+sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
+    npx:hasSignatureTarget this:;
+    npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
+    npx:hasSignature "h8YtIKXEp0lhlUyx0yeB3F1EqQWcNDX5AFSHs9HIU5jn7EV6f+VvqtBPQyNW5RSdstlyubfqLLXF0buE70UOJaF5hXyZ4XuxND9UuK6ej7qnIVTjDO05TxZrMLP3V2UJlJMxfs7MnIAAU5FEDwNEgLSOxgwEleeJErbWuHQTF1BdDbHFmYKmJXBi4fTqRo6PtmD10WlGRsh3UyPpVeooWgM/RPgpyNSUFf4e5wyFN9sZMb7VJDkzM45aEq2ariN/fC02Dgr5DGu2q+Nw3rohFN/jlxRx11lCshT+eboUWvMup05F/41IhKncDt2nvZaa60n1ugbM0J7vZoUz8XU5qQ=="
+}

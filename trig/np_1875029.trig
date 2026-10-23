@@ -1,0 +1,52 @@
+@prefix this: <https://pd.sciai.eu/np/1875029/RA5wGqviUdfMg0uC-0ASOCzhIqVC9ySebkY7EOH3bxkc4>.
+@prefix sub: <https://pd.sciai.eu/np/1875029/RA5wGqviUdfMg0uC-0ASOCzhIqVC9ySebkY7EOH3bxkc4/>.
+@prefix np: <http://www.nanopub.org/nschema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix npx: <http://purl.org/nanopub/x/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+sub:Head {
+this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication
+}
+sub:assertion {
+sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
+    <https://pd.sciai.eu/ontology/property/assertionId> 1875029;
+    <https://pd.sciai.eu/ontology/property/confidence> 0.95;
+    <https://pd.sciai.eu/ontology/property/effectDirection> "positive";
+    <https://pd.sciai.eu/ontology/property/evidenceTier> 3;
+    <https://pd.sciai.eu/ontology/property/hasObject> <https://pd.sciai.eu/ontology/entity/D000067757>;
+    <https://pd.sciai.eu/ontology/property/hasRelation> <https://pd.sciai.eu/ontology/relation/activates>;
+    <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/D000077270>.
+<https://pd.sciai.eu/ontology/entity/D000067757> a <https://pd.sciai.eu/ontology/type/Protein>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "GLP-1 receptor".
+<https://pd.sciai.eu/ontology/entity/D000077270> a <https://pd.sciai.eu/ontology/type/Compound>;
+    <https://pd.sciai.eu/ontology/relation/activates> <https://pd.sciai.eu/ontology/entity/D000067757>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Exendin-4"
+}
+sub:provenance {
+sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21).";
+    prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/26316987/>;
+    prov:wasGeneratedBy <https://sciai.eu/#sciai-lab>;
+    <https://pd.sciai.eu/ontology/property/evidenceStateLabel> "supported";
+    <https://pd.sciai.eu/ontology/property/extractedAt> "2026-09-07T05:17:12.749026+00:00"^^xsd:dateTime;
+    <https://pd.sciai.eu/ontology/property/extractionSchema> "universal_pd_v4";
+    <https://pd.sciai.eu/ontology/property/paperType> "animal_study";
+    <https://pd.sciai.eu/ontology/property/species> "Rattus norvegicus";
+    <https://pd.sciai.eu/ontology/property/verbatimContext> "EX-4 is a GLP-1R agonist."
+}
+sub:pubinfo {
+this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+    dc:creator <https://orcid.org/0009-0008-6409-2596>;
+    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
+sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
+    npx:hasSignatureTarget this:;
+    npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
+    npx:hasSignature "bRoxUcgASN84h0Gom5AcU9KVXd+NCfw5W5/1wUYHAx7y192mSCnzUmw9oOYLaymBYnI5IF2ZrKETrn/dteK+9g7B3xGNYJHH5M43NmaIznuHIkfARs+F5msWY6HdnwB08lN9Ez5rxS/kpXiDUIcCarCbokENNhb8YaSr54hyzNJ7MSXKd7ueXTPTFngZxnk1zYXBSW4ITJUDq8opKpRzIz9tZa1ZLmvCiQLSEekwNkwy4psqbl3EI04Jcx0NwG64qBrqsEqglbaXAt+xid4dPn9zBPOP7FVEg0nVKbNA9XMWPG9+EPlxjInJeJ4PCUZfMvXS2ncjQvWqjAZ1W44hUw=="
+}

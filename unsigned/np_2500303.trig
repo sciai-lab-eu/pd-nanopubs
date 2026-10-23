@@ -1,0 +1,52 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ns1: <https://pd.sciai.eu/ontology/relation/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sciai: <https://pd.sciai.eu/ontology/property/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://pd.sciai.eu/np/2500303/provenance> {
+    <https://pd.sciai.eu/np/2500303/assertion> rdfs:comment "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21)." ;
+        prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/34817756/> ;
+        prov:wasGeneratedBy <https://sciai.eu/#sciai-lab> ;
+        sciai:evidenceStateLabel "contested" ;
+        sciai:extractedAt "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime ;
+        sciai:extractionSchema "universal_pd_v5" ;
+        sciai:paperType "animal_study" ;
+        sciai:species "Mus musculus" ;
+        sciai:verbatimContext "Liraglutide reduced NF-κB protein levels in the substantia nigra." .
+}
+
+<https://pd.sciai.eu/np/2500303/Head> {
+    <https://pd.sciai.eu/np/2500303> a np:Nanopublication ;
+        np:hasAssertion <https://pd.sciai.eu/np/2500303/assertion> ;
+        np:hasProvenance <https://pd.sciai.eu/np/2500303/provenance> ;
+        np:hasPublicationInfo <https://pd.sciai.eu/np/2500303/pubinfo> .
+}
+
+<https://pd.sciai.eu/np/2500303/assertion> {
+    <https://pd.sciai.eu/np/2500303/claim> a sciai:Assertion ;
+        sciai:assertionId 2500303 ;
+        sciai:confidence 0.95 ;
+        sciai:effectDirection "negative" ;
+        sciai:evidenceTier 3 ;
+        sciai:hasObject <https://pd.sciai.eu/ontology/entity/D016328> ;
+        sciai:hasRelation ns1:decreases ;
+        sciai:hasSubject <https://pd.sciai.eu/ontology/entity/D000069450> .
+
+    <https://pd.sciai.eu/ontology/entity/D000069450> a <https://pd.sciai.eu/ontology/type/Concept> ;
+        rdfs:label "liraglutide" ;
+        ns1:decreases <https://pd.sciai.eu/ontology/entity/D016328> .
+
+    <https://pd.sciai.eu/ontology/entity/D016328> a <https://pd.sciai.eu/ontology/type/Protein> ;
+        rdfs:label "Nuclear factor-kappa B" .
+}
+
+<https://pd.sciai.eu/np/2500303/pubinfo> {
+    <https://pd.sciai.eu/np/2500303> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
+}
+

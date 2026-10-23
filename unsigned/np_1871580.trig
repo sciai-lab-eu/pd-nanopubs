@@ -1,0 +1,52 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ns1: <https://pd.sciai.eu/ontology/relation/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sciai: <https://pd.sciai.eu/ontology/property/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://pd.sciai.eu/np/1871580/Head> {
+    <https://pd.sciai.eu/np/1871580> a np:Nanopublication ;
+        np:hasAssertion <https://pd.sciai.eu/np/1871580/assertion> ;
+        np:hasProvenance <https://pd.sciai.eu/np/1871580/provenance> ;
+        np:hasPublicationInfo <https://pd.sciai.eu/np/1871580/pubinfo> .
+}
+
+<https://pd.sciai.eu/np/1871580/assertion> {
+    <https://pd.sciai.eu/np/1871580/claim> a sciai:Assertion ;
+        sciai:assertionId 1871580 ;
+        sciai:confidence 0.85 ;
+        sciai:effectDirection "negative" ;
+        sciai:evidenceTier 3 ;
+        sciai:hasObject <https://pd.sciai.eu/ontology/entity/D059290> ;
+        sciai:hasRelation ns1:damages ;
+        sciai:hasSubject <https://pd.sciai.eu/ontology/entity/D000079403> .
+
+    <https://pd.sciai.eu/ontology/entity/D000079403> a <https://pd.sciai.eu/ontology/type/Pathway> ;
+        rdfs:label "Ferroptosis" ;
+        ns1:damages <https://pd.sciai.eu/ontology/entity/D059290> .
+
+    <https://pd.sciai.eu/ontology/entity/D059290> a <https://pd.sciai.eu/ontology/type/CellType> ;
+        rdfs:label "Dopaminergic neurons" .
+}
+
+<https://pd.sciai.eu/np/1871580/provenance> {
+    <https://pd.sciai.eu/np/1871580/assertion> rdfs:comment "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21)." ;
+        prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/36432569/> ;
+        prov:wasGeneratedBy <https://sciai.eu/#sciai-lab> ;
+        sciai:evidenceStateLabel "contested" ;
+        sciai:extractedAt "2026-09-07T05:17:12.601919+00:00"^^xsd:dateTime ;
+        sciai:extractionSchema "universal_pd_v4" ;
+        sciai:paperType "animal_study" ;
+        sciai:species "Mus musculus" ;
+        sciai:verbatimContext "Ferroptosis leads to loss of dopaminergic neurons in the substantia nigra." .
+}
+
+<https://pd.sciai.eu/np/1871580/pubinfo> {
+    <https://pd.sciai.eu/np/1871580> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
+}
+
