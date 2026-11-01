@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1871578/RAxMQbVn1Sso02-r-5e4hRH4wiHW0CZvUEX-iv2Tm2w1k>.
-@prefix sub: <https://pd.sciai.eu/np/1871578/RAxMQbVn1Sso02-r-5e4hRH4wiHW0CZvUEX-iv2Tm2w1k/>.
+@prefix this: <https://pd.sciai.eu/np/1871578/RAoC2RZJ3YmBk4lKzq5i3p9OlvVwM-64PUE7RnAQSG6ro>.
+@prefix sub: <https://pd.sciai.eu/np/1871578/RAoC2RZJ3YmBk4lKzq5i3p9OlvVwM-64PUE7RnAQSG6ro/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -24,7 +24,7 @@ sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
     <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/SELF%3Alactococcus%20lactis%20mg1363%20pmg36e%20glp%201>.
 <https://pd.sciai.eu/ontology/entity/D010300> a <https://pd.sciai.eu/ontology/type/Disease>;
     <http://www.w3.org/2000/01/rdf-schema#label> "Idiopathic Parkinson's Disease (IPD)".
-<https://pd.sciai.eu/ontology/entity/SELF%3Alactococcus%20lactis%20mg1363%20pmg36e%20glp%201> a <https://pd.sciai.eu/ontology/type/Treatment>;
+<https://pd.sciai.eu/ontology/entity/SELF%3Alactococcus%20lactis%20mg1363%20pmg36e%20glp%201> a <https://pd.sciai.eu/ontology/type/Compound>;
     <https://pd.sciai.eu/ontology/relation/treats> <https://pd.sciai.eu/ontology/entity/D010300>;
     <http://www.w3.org/2000/01/rdf-schema#label> "Lactococcus lactis MG1363-pMG36e-GLP-1"
 }
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "The probiotic strain ameliorates Parkinson's disease symptoms in the MPTP mouse model."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "pckTwB6XNV+AlUZ/HFEqlOSziQlZYTRCycc/c7Ekvggt3nA39BcEAk280F2dgoma/Gr6TA+b5O5EFFmAZOjKQYieVS4/w7bpi/ahyxOK3qNMi8Emk3oktrY56Ud0AUtAvFV606bN22q2SQAk47iRrEcpSg4ZFGHoSnvMuj2yzanxWvPr0v0wpiq2q/LSsZzRfODdUtAqntxFPWlA3OdidskjUcOOVPT3JiwmBkpHaA1e6s8Hect442mwv7IYW33/hQrlM3FHDB2jR9xiMtAmORrRN+XXsAiV8M3x1JtKg+3SaenBI7fXQf/NNgsf/KFkhhpo9E/IwYqnZW90h82C6A=="
+    npx:hasSignature "lWvRS/XYjbiS2Hn8P0Kp28yaOVI2oPHAWGma3ZJN8KOeVvLVrf3Jw53GrWwb5ARAvTV/5SlIodIBVYzgghD3YmdLQnXnBarcC8AmrdKn5eVg+X1Me3g5LvhhS24VAJmOHyYLoT7kUwgM52MalO0gBzKkCeQ3aF/FMKzZ63WPzeoQsh8VETHErLieNX8BIxHz7BOvjYzmVjGCkBvAK0my8BYp9B9+JgWsH2yQp8lj7KjgzbeAL17B5xt4PxA2dJjDCOKoHXusUekm7Eqmn36QCmRequZhGTdxMWTyL0+xctN4/AV9wHODlajxgiCqvBJr4XsU4NEI7WHcKSkr6HkbQg=="
 }

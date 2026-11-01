@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1874162/RAYCNDA7A1mDD-NHc1rdJ6l_p7TuV9yBp-JiO00FsCiMc>.
-@prefix sub: <https://pd.sciai.eu/np/1874162/RAYCNDA7A1mDD-NHc1rdJ6l_p7TuV9yBp-JiO00FsCiMc/>.
+@prefix this: <https://pd.sciai.eu/np/1874162/RAHea5siMv4IWn80OO-XEQp5Hgla-GQr3xMQnfcLy09Qs>.
+@prefix sub: <https://pd.sciai.eu/np/1874162/RAHea5siMv4IWn80OO-XEQp5Hgla-GQr3xMQnfcLy09Qs/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "DA3-CH showed superior neuroprotective effects in MPTP mouse model of PD."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "bIxEXNp0jzFC94ZMNk+YAslcAQDLRrB4+bLWbpXInXf6LOdP/ycdNVACai7xsCUcM2aCcSUOuufTUu203/O2rIQlEst6ubeFc6oDBEorR4ioJ/HJEzgRunjfdf58df02GNbDUoDbUTDNcFvEtbT+0Z8HmRRMkLT8AbG31VAfx/lMRl6UUx7tlMDLG5SDQr/HQhsEtdjuQYWX3hJ6jK51tNWotA1FxEGI9hGYfT0hCXCpqQtro+bsdse6zx8Biaa66EmeTYg7p+5c+QEgDQE2D7Eob9nt33mraCKBmZGMO5sSksrAoX1pw7G0894aEOigQri7JyBAS7ijOHkXRK/UJA=="
+    npx:hasSignature "bHvIUp6kRlA86riKvIuM0d1zDKEDxEnEwXxfmry+9D8wf3SoU8lrKNO0D6pRC+3fIEfHVdSPcY4zPvSQ5UnIGbAVMWUVVmueIuzoIlguH4DaM58tsUyi3+YZKQF3yBK/0H52h1rWHyzw2JBEbs6OxhnFyRk9upUTnieBFU8opslE5pj+Qk+lVw7tf6M6/v0DpFmEGaNn7d+e8kzW5m0r+RXQS1cOGB0hKK3YZ2zWBAf/5Tdnrm9GU7vj9dmJnfn8A0JvHNyIGI9JuXDkSWKEBKdohFR9bk+XctQbTqaJB88SvG/pQCr3RRWtJYFfdBdg+Ga9afSEGke+S9G7qAq1gg=="
 }

@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1875319/RAcDpLwb9BC9NrROgJ5Auv9Pun7Up84aeEYbCqpBu3udY>.
-@prefix sub: <https://pd.sciai.eu/np/1875319/RAcDpLwb9BC9NrROgJ5Auv9Pun7Up84aeEYbCqpBu3udY/>.
+@prefix this: <https://pd.sciai.eu/np/1875319/RAW_GtN0Ocio5C6-O2PxfR-uKEpELTUhsTvxX08q4GPjM>.
+@prefix sub: <https://pd.sciai.eu/np/1875319/RAW_GtN0Ocio5C6-O2PxfR-uKEpELTUhsTvxX08q4GPjM/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -39,13 +39,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "EX-4 reversed PD-like pathology in 6-OHDA and LPS models."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "dFgnhvXJlfLX8lKKFGLENGv883td4mLh/GDGYxA1rtZRphgATfPSEP4+S7psHyGi+DAv0T+pz16v9fegMcTty9QB+Iu/jvwjAisvTC4Ej4Aphl1g8WE9ZCDQKB1qNig/Ru+L3Lb544IhRv7WsoJEtfp7uuxvKTLp8q4Xs9XGRno0x9wXzkr/+zeMcszSTwS8y3yt4HG4EfFmyEdsUmTOqjB8xCVKhStkfTo+/YDbxS0rfTeqOCkB6ZHX6ZsOC4vXIsjqqwx1FWSMTq+Z0fEVTyIxXPkXRv2dnDoqoAfnZ2a5oh2ZYbInU1s+k8PNibNVrppWxG4fPPFur1SNhSiN0Q=="
+    npx:hasSignature "sS3F3iLhY1OuL6zN50qDXQndQ3ryeLJcML2Z8LJjumVZweWBR27mjYnJdKadwzkwlvxmFbKC21LxyVPvoUaj0zxauQOM0v5BsWLBb5O4zGcAeQVi8X/PrF/noJ/j1hmXKgTh07usBuZSb618b8kEU3zHp6OX/hD/P2XUxwHXkdcb89bmoeI9mZEl4vcmo2y1K56VBk+g/6L5B6ev34tlFAdqk2BEJ8VwYGb8du3JGOKRGfI7UlOsY1y9jNcu9E78jXNPJnsVUw3AxD08wRJ7rgzVo2+jFCUh4yAs7GE7wcA+PbI8wr/fptRBC3oSp1qDQ9H05t/XB4uqEIXqk3SFdw=="
 }

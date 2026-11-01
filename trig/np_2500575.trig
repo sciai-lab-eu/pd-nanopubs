@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500575/RA4g45qY353kDQiaCn7XCotK52rV0XY9D_VWpTpk5qbFY>.
-@prefix sub: <https://pd.sciai.eu/np/2500575/RA4g45qY353kDQiaCn7XCotK52rV0XY9D_VWpTpk5qbFY/>.
+@prefix this: <https://pd.sciai.eu/np/2500575/RAKxr9suKZK1kt3zT3cNJ_ZD6o0gJapww6fp0zBVSzL1U>.
+@prefix sub: <https://pd.sciai.eu/np/2500575/RAKxr9suKZK1kt3zT3cNJ_ZD6o0gJapww6fp0zBVSzL1U/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -37,13 +37,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "GLP-1 reduces apoptotic death in BV-2 microglia via GLP-1R."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "Ajmxs0etQYPz1gFQPObhOLj2OvNr5mFl/KJgzYrF0qqH7EoSGBkDg87f81Boh8Ry2GShDpjKXf1Zscl3R0e69SLvIdLtO+bdMEMmsgIChkO6C/zw6d0tPVb/nGyUw5R0fqfJnTlDeKMgm1JYYTWDY6VIVbe0Ucr8jz7w7H+9LrfsJDxYs4u4JA9xLxHdfJRWQxRIghIdcF/g9+Gl1T5l1+/qtDzmCZTCQOT6fjG7gogtGM8EVxCJTtr1K4XTNksNWXSmIQJP45biTsHvaQtHS2lGBayNIfiKkwvqZ9Y2k7bfawjDfSDcn58jGIdNXJNceAUv2HJN0LsoxkS+ygZHfQ=="
+    npx:hasSignature "CoWB06zT12BxYubO+0yuqPJ4J6OA/LntJ9lPFaKDkdkHRKCCm7XPSLszHT+mgfnvE3aPLipFSA2lMV3r8mEag5FoDC1d/25CQ7b6V/8hvhIaVM4vZt9jqqT6PJe13nrzn6ROf7IHWUTD8a+Q6SpID0MpfpF3NnAix8tClNKaSXJKQ8Bk58TX3/hWYv2n0UNafl+/0nbEw83wSYZI/qkBWVAbkDQE8xCP0mAcWErAK+BoA79FLGlspZoLe7O/lZxNyZv5pnW4Mo+2+AbBAWhM0YWcqDw+Mu89A3Da+euKBIQJGIVBocxyqWK5xbkhmG1bgsRuE1X7MUwOd/b5IpLAhw=="
 }

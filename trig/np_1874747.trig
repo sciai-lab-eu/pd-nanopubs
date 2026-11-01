@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1874747/RAro2Zf0lsXzw_j01AfSq3F_Llzbqafm8pbFdO7y9wYUc>.
-@prefix sub: <https://pd.sciai.eu/np/1874747/RAro2Zf0lsXzw_j01AfSq3F_Llzbqafm8pbFdO7y9wYUc/>.
+@prefix this: <https://pd.sciai.eu/np/1874747/RACg9e1DYQe0kCAutFcd6o-Nd5M84BXuKiLLZmJKYT4D8>.
+@prefix sub: <https://pd.sciai.eu/np/1874747/RACg9e1DYQe0kCAutFcd6o-Nd5M84BXuKiLLZmJKYT4D8/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "MPTP is metabolized to MPP+ by monoamine oxidase B."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "aObIcafxDtqMFRfOypO/SP46XsnOxFmIVc2oKazwCuwNtBmRZZC0tNPKYytCbF4LFYxZxtpaNudyZu6/xro3xNqsQl+O3Jkf/JLOk6EBBVyi8KaStbX6C0IfQPyt6rtbEzd3Hd9xLxTDypfy+S3b/bcKuB9bLTLmhw3kO4t5/gZ/vyslwtuQyM6WNKWvg5hC88c90yPN7rrz7Nl9CXPNvkYYOa1eR7nyvIzlzbPYHthySOwIQPw1JjOLC3sMmcQqKSEJ3lSY3O6lEiLpAePZUfcWNL4IgMMMc+iAVq6Hmc/z3vIzPi5CJrfmwJL9rt5jeRUdrkR1vmpAF69e5zmG8A=="
+    npx:hasSignature "F32F4Dk9jORHvh/P6yg+enb6mVsezxewdT7S5MgTckCZZEM8XVs6UgwJPpcuvcziDo2ttG/9pPIRQZJqi9RP6Tvg+rE3b2VLTdczNmnn60dLaQJmY/wVJpQC1JOMpd8jc9hIrPuvEkIiyjfU8QjpkmZgvYrZfLmW3VkTohnydGanVRht1ghYE2BkMxBVGW1k8bE6v8VMWDHeAjgIWigYk7rBT67YJQoELHBgQvNDllDJ1Sh3Efoe0RvJwaoLxLbiTLXLtNKX6O2KoNmiE4S4rWruOGGznX9n2FiXbpezD1GOGx8xh/ed9f82V65cWDdB7akSDErYv4e3uDiPT0aoFQ=="
 }

@@ -18,13 +18,6 @@
         sciai:verbatimContext "Ex-4 protects against 6-OHDA-induced toxicity." .
 }
 
-<https://pd.sciai.eu/np/1875463/pubinfo> {
-    <https://pd.sciai.eu/np/1875463> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
-        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
-}
-
 <https://pd.sciai.eu/np/1875463/assertion> {
     <https://pd.sciai.eu/np/1875463/claim> a sciai:Assertion ;
         sciai:assertionId 1875463 ;
@@ -41,6 +34,13 @@
 
     <https://pd.sciai.eu/ontology/entity/D016627> a <https://pd.sciai.eu/ontology/type/Compound> ;
         rdfs:label "oxidopamine" .
+}
+
+<https://pd.sciai.eu/np/1875463/pubinfo> {
+    <https://pd.sciai.eu/np/1875463> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
 }
 
 <https://pd.sciai.eu/np/1875463/Head> {

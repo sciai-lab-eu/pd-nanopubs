@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1856434/RAr-sg-I3-x0Hkxafpiv4UYRYUzAvmPAw1wQz0W_-oZ08>.
-@prefix sub: <https://pd.sciai.eu/np/1856434/RAr-sg-I3-x0Hkxafpiv4UYRYUzAvmPAw1wQz0W_-oZ08/>.
+@prefix this: <https://pd.sciai.eu/np/1856434/RAoFgE1LwGI5cZOGBPmTLzTvq0cG7n-NpgEioEtM09SPY>.
+@prefix sub: <https://pd.sciai.eu/np/1856434/RAoFgE1LwGI5cZOGBPmTLzTvq0cG7n-NpgEioEtM09SPY/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "MPTP is used to induce Parkinson's disease in mice."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "SeN1HEEgGJrJnZ0xiyBYrc42qeEWCCrk/QLC9DKn11V7j/tJtdqr8UkAxNy2dHCZrPoXjJ+Seh0+4xC/N0VvvwJP0/XSrJCiCUbFQoqmlLUA77StOeEQJfXybImY0FfiQ3RFRq8KBYRiDRKURFtnXvN7o3UvkJ06eHfFjiUxvIcXvS9UGp79j/74mAIsFuSEW+l6PJnIiIRywzmRXiEevON96ynjriYGCLW6DVE+1UGEC/Q5f5QRI5sdDce7LIlz/C5OqpLlyp2XFIGOndrYSkz6zE54OnKs2b8RxjnhYG4bhrxV9PC9saunJePuqcl9B4qIBwEs+19U5SDAw6MpjA=="
+    npx:hasSignature "hxX6lvGZJlPVG5MjqmxQsU0YNECBWwCn5vcQ+VHizYUYP4tltlNy+TwStgMr+qXlDWR5SygWV3SfhTRSy6eodgN0HQqtyOQEb8pJItq0ZGdzkt1zz26Fv8CXUuUDq40qg/hAF7aeqR4gjMtu24cHcP6j86hDdWP8AmsLl6Tym1+kdoB5ZTSY27nwOUncwWSijnABxVK+ET4mxZBhuKsYh6Zsm7RizLRR40FPAYlf9AqyJ5s0pRajqagUjr/HmCnBM5g28eAdZGiNJdS5rXFPi838fKu2qgO8WcR1jBvewJbRE6CqFAXfxQOTcOamF6Pdt757etBjbWCDYy6CmZCllw=="
 }

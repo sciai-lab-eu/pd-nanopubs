@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500667/RAs2vnVL3sraJxSPjpZ9H2SRd3rOXJ6NHXSQGC-KqxPHw>.
-@prefix sub: <https://pd.sciai.eu/np/2500667/RAs2vnVL3sraJxSPjpZ9H2SRd3rOXJ6NHXSQGC-KqxPHw/>.
+@prefix this: <https://pd.sciai.eu/np/2500667/RAGeqoAGC-9e_nfgU6738rfuc8geTVnBA9uZ1MpQneMQg>.
+@prefix sub: <https://pd.sciai.eu/np/2500667/RAGeqoAGC-9e_nfgU6738rfuc8geTVnBA9uZ1MpQneMQg/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -39,13 +39,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Exenatide acts as an agonist at the GLP-1 receptor, activating downstream signaling pathways."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "mHimGgrkH9Bewf0my/Roa9ICumMPQ2k+zC6e/rOAxMrO6EXF4YxTDyFOFwd1BkmUes++5Hxhwd98+LfuvDbCojm+NyxSDPOAhs5/lgEkXqSdLtpqqk45x8Dqbqya+8CnUtRdpj06oEsR1bFRT3hnl3sSmHZZ9m4azDBGOSTHzbUzVh4EwahbH4onHNDNtewkfpOYfSaBkBwGOKspCYoMUFfjq2ryHHJNNqFO86KX4HYG5MS8tHq6yNYWsgS+lVyfP/h5tM/5zPnEKWrxEOlkctO1gQuGQnsBJTXPaWTGGyBFNY/GgO60JL5gybVbER3Fa/9KiiwyGfiiowhvRENGbg=="
+    npx:hasSignature "SGbx54O/sVyXNGC7VjtNuOa1sM0EzJmKyDZY4G+AsMYd9Ks8a0BECbE56wnBCr6fc6me2jKVXMJe7lwe3xiwcYH2AC1nLqTurTNM6s0UcNM++rmGe1fMmHqR7xtF/gwUXv9JrFOqWtc2PRabOlax3uyZck8PYQqx2DgFuaTtMRAq4oVWCq78Jwn5W2iTTwdhq+wDfObx0fg6CmSQQokQO60GS6tzMb25LqnbToeq1gZRjgPuIivjmcKn+IJ2jA4GMpgw/2c94p4EVxLfBH51XjOOBNuYfWP/A6aBBGNu3xSRxXGdm/UjmDdqVlQj1vDyKnnLRVSQRjCBXL33if99jg=="
 }

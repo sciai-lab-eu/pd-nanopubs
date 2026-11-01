@@ -6,6 +6,31 @@
 @prefix sciai: <https://pd.sciai.eu/ontology/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://pd.sciai.eu/np/1871578/assertion> {
+    <https://pd.sciai.eu/np/1871578/claim> a sciai:Assertion ;
+        sciai:assertionId 1871578 ;
+        sciai:confidence 0.85 ;
+        sciai:effectDirection "negative" ;
+        sciai:evidenceTier 3 ;
+        sciai:hasObject <https://pd.sciai.eu/ontology/entity/D010300> ;
+        sciai:hasRelation ns1:treats ;
+        sciai:hasSubject <https://pd.sciai.eu/ontology/entity/SELF%3Alactococcus%20lactis%20mg1363%20pmg36e%20glp%201> .
+
+    <https://pd.sciai.eu/ontology/entity/SELF%3Alactococcus%20lactis%20mg1363%20pmg36e%20glp%201> a <https://pd.sciai.eu/ontology/type/Compound> ;
+        rdfs:label "Lactococcus lactis MG1363-pMG36e-GLP-1" ;
+        ns1:treats <https://pd.sciai.eu/ontology/entity/D010300> .
+
+    <https://pd.sciai.eu/ontology/entity/D010300> a <https://pd.sciai.eu/ontology/type/Disease> ;
+        rdfs:label "Idiopathic Parkinson's Disease (IPD)" .
+}
+
+<https://pd.sciai.eu/np/1871578/pubinfo> {
+    <https://pd.sciai.eu/np/1871578> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
+}
+
 <https://pd.sciai.eu/np/1871578/Head> {
     <https://pd.sciai.eu/np/1871578> a np:Nanopublication ;
         np:hasAssertion <https://pd.sciai.eu/np/1871578/assertion> ;
@@ -23,30 +48,5 @@
         sciai:paperType "animal_study" ;
         sciai:species "Mus musculus" ;
         sciai:verbatimContext "The probiotic strain ameliorates Parkinson's disease symptoms in the MPTP mouse model." .
-}
-
-<https://pd.sciai.eu/np/1871578/assertion> {
-    <https://pd.sciai.eu/np/1871578/claim> a sciai:Assertion ;
-        sciai:assertionId 1871578 ;
-        sciai:confidence 0.85 ;
-        sciai:effectDirection "negative" ;
-        sciai:evidenceTier 3 ;
-        sciai:hasObject <https://pd.sciai.eu/ontology/entity/D010300> ;
-        sciai:hasRelation ns1:treats ;
-        sciai:hasSubject <https://pd.sciai.eu/ontology/entity/SELF%3Alactococcus%20lactis%20mg1363%20pmg36e%20glp%201> .
-
-    <https://pd.sciai.eu/ontology/entity/SELF%3Alactococcus%20lactis%20mg1363%20pmg36e%20glp%201> a <https://pd.sciai.eu/ontology/type/Treatment> ;
-        rdfs:label "Lactococcus lactis MG1363-pMG36e-GLP-1" ;
-        ns1:treats <https://pd.sciai.eu/ontology/entity/D010300> .
-
-    <https://pd.sciai.eu/ontology/entity/D010300> a <https://pd.sciai.eu/ontology/type/Disease> ;
-        rdfs:label "Idiopathic Parkinson's Disease (IPD)" .
-}
-
-<https://pd.sciai.eu/np/1871578/pubinfo> {
-    <https://pd.sciai.eu/np/1871578> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
-        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
 }
 

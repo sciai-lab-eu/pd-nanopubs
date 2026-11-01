@@ -35,17 +35,17 @@
         rdfs:label "Idiopathic Parkinson's Disease (IPD)" .
 }
 
-<https://pd.sciai.eu/np/1875319/pubinfo> {
-    <https://pd.sciai.eu/np/1875319> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
-        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
-}
-
 <https://pd.sciai.eu/np/1875319/Head> {
     <https://pd.sciai.eu/np/1875319> a np:Nanopublication ;
         np:hasAssertion <https://pd.sciai.eu/np/1875319/assertion> ;
         np:hasProvenance <https://pd.sciai.eu/np/1875319/provenance> ;
         np:hasPublicationInfo <https://pd.sciai.eu/np/1875319/pubinfo> .
+}
+
+<https://pd.sciai.eu/np/1875319/pubinfo> {
+    <https://pd.sciai.eu/np/1875319> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
 }
 

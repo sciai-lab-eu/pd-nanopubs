@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1871992/RAsAWNQo3h_LGINGV6GoeGyoWMgwAwhowYukJ9mDy_j8U>.
-@prefix sub: <https://pd.sciai.eu/np/1871992/RAsAWNQo3h_LGINGV6GoeGyoWMgwAwhowYukJ9mDy_j8U/>.
+@prefix this: <https://pd.sciai.eu/np/1871992/RAh4L67g6gwsQG1nWyFwPw5Gz9-j1z_WZt2eBEsjR-ZoI>.
+@prefix sub: <https://pd.sciai.eu/np/1871992/RAh4L67g6gwsQG1nWyFwPw5Gz9-j1z_WZt2eBEsjR-ZoI/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -39,13 +39,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Rotenone is used to induce PD-like pathology in rodent models."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "B3AArlHqwI6HQj90S4p4BKEClh1EZJGhkRk3DwOnNGTBbKKix8y167m+Jm6mkcGdKP6H5Vq2bJJjFsKOpYP6/rAYbot0b74c8KUZx7kjkttQA9HAdUBSlJ/SqDOyokc0Vl0rReUw+GR8vHpTMsTuV6N9LkjgBXSGjk8ycat6ElEy0ejz/ar4C7LEkFdeYNQRX5YxqmGwIz0zzA3a14U9GXLOl+Esc17j0PrlZ3RMAW/NBMUl9g/SQc6szQSWqb2eLud5E6enLA4zlBx1En6zoX9tSbyKDESTkDfLz5q6z31PzumDFDLXPJVmsuA61neLYc80laFxnEmhy+rKe7q0FQ=="
+    npx:hasSignature "Qilbk2pyAuMme4bK894lnuRjylmGurT7rONntA443IHpWhhHfT9e5bfPpJ0MihHJLwY/7Yuz0YmEsvFAnHKqFom0ca0FK26AMBX3jcNc732411qc2WRPscSUXvAWNL9qDF1vks97r5BupwCTZdRsTyNNgw4jPk4eYe1Qnpsvyin5u1+QoMYkaLl33ocX9+X8mI7dxzJpTwh1oLPsl5HzC+svRoqZ8YYL4SUZIqvLoKiTGL02Mq6TTpfomBNFdZmgWTzUrKCXM177HCfBdiN0mTsYWyjkM6uqyLC0z5UuFKsl1DXcQEjZLHoFMZZqfWgE/e2YqJL7cAhJn30JsZPeYA=="
 }

@@ -6,11 +6,22 @@
 @prefix sciai: <https://pd.sciai.eu/ontology/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://pd.sciai.eu/np/2500581/Head> {
-    <https://pd.sciai.eu/np/2500581> a np:Nanopublication ;
-        np:hasAssertion <https://pd.sciai.eu/np/2500581/assertion> ;
-        np:hasProvenance <https://pd.sciai.eu/np/2500581/provenance> ;
-        np:hasPublicationInfo <https://pd.sciai.eu/np/2500581/pubinfo> .
+<https://pd.sciai.eu/np/2500581/provenance> {
+    <https://pd.sciai.eu/np/2500581/assertion> rdfs:comment "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21)." ;
+        prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/28777758/> ;
+        prov:wasGeneratedBy <https://sciai.eu/#sciai-lab> ;
+        sciai:evidenceStateLabel "single-source" ;
+        sciai:extractedAt "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime ;
+        sciai:extractionSchema "universal_pd_v5" ;
+        sciai:paperType "clinical_trial" ;
+        sciai:verbatimContext "Exenatide treatment resulted in a 3.5-point improvement in MDS-UPDRS Part 3 motor score in OFF state." .
+}
+
+<https://pd.sciai.eu/np/2500581/pubinfo> {
+    <https://pd.sciai.eu/np/2500581> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
 }
 
 <https://pd.sciai.eu/np/2500581/assertion> {
@@ -27,25 +38,14 @@
         rdfs:label "Exendin-4" ;
         ns1:assesses <https://pd.sciai.eu/ontology/entity/SELF%3Amds%20updrs%20part%203> .
 
-    <https://pd.sciai.eu/ontology/entity/SELF%3Amds%20updrs%20part%203> a <https://pd.sciai.eu/ontology/type/Biomarker> ;
+    <https://pd.sciai.eu/ontology/entity/SELF%3Amds%20updrs%20part%203> a <https://pd.sciai.eu/ontology/type/Outcome> ;
         rdfs:label "MDS-UPDRS Part 3" .
 }
 
-<https://pd.sciai.eu/np/2500581/provenance> {
-    <https://pd.sciai.eu/np/2500581/assertion> rdfs:comment "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21)." ;
-        prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/28777758/> ;
-        prov:wasGeneratedBy <https://sciai.eu/#sciai-lab> ;
-        sciai:evidenceStateLabel "single-source" ;
-        sciai:extractedAt "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime ;
-        sciai:extractionSchema "universal_pd_v5" ;
-        sciai:paperType "clinical_trial" ;
-        sciai:verbatimContext "Exenatide treatment resulted in a 3.5-point improvement in MDS-UPDRS Part 3 motor score in OFF state." .
-}
-
-<https://pd.sciai.eu/np/2500581/pubinfo> {
-    <https://pd.sciai.eu/np/2500581> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
-        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
+<https://pd.sciai.eu/np/2500581/Head> {
+    <https://pd.sciai.eu/np/2500581> a np:Nanopublication ;
+        np:hasAssertion <https://pd.sciai.eu/np/2500581/assertion> ;
+        np:hasProvenance <https://pd.sciai.eu/np/2500581/provenance> ;
+        np:hasPublicationInfo <https://pd.sciai.eu/np/2500581/pubinfo> .
 }
 

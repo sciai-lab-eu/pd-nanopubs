@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500581/RAbROJ5K9sJqOOPajy39AYO4iFchMnBgDmqfMC6ErseMc>.
-@prefix sub: <https://pd.sciai.eu/np/2500581/RAbROJ5K9sJqOOPajy39AYO4iFchMnBgDmqfMC6ErseMc/>.
+@prefix this: <https://pd.sciai.eu/np/2500581/RA5DeJWsWShrU6UkAGqE1S3orwNkAtM9evkWGe89t_L1U>.
+@prefix sub: <https://pd.sciai.eu/np/2500581/RA5DeJWsWShrU6UkAGqE1S3orwNkAtM9evkWGe89t_L1U/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -22,7 +22,7 @@ sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
     <https://pd.sciai.eu/ontology/property/hasObject> <https://pd.sciai.eu/ontology/entity/SELF%3Amds%20updrs%20part%203>;
     <https://pd.sciai.eu/ontology/property/hasRelation> <https://pd.sciai.eu/ontology/relation/assesses>;
     <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/D000077270>.
-<https://pd.sciai.eu/ontology/entity/SELF%3Amds%20updrs%20part%203> a <https://pd.sciai.eu/ontology/type/Biomarker>;
+<https://pd.sciai.eu/ontology/entity/SELF%3Amds%20updrs%20part%203> a <https://pd.sciai.eu/ontology/type/Outcome>;
     <http://www.w3.org/2000/01/rdf-schema#label> "MDS-UPDRS Part 3".
 <https://pd.sciai.eu/ontology/entity/D000077270> a <https://pd.sciai.eu/ontology/type/Compound>;
     <https://pd.sciai.eu/ontology/relation/assesses> <https://pd.sciai.eu/ontology/entity/SELF%3Amds%20updrs%20part%203>;
@@ -39,13 +39,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Exenatide treatment resulted in a 3.5-point improvement in MDS-UPDRS Part 3 motor score in OFF state."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "GwGJO15rZ1s4OOzSNvqYOaHd/LHmVtkXIfG9dSBvijvBn4WLYjkIeF29S/FQzh8/4lvUy4n56i1MCs6fb1eugX56SpUAWBU5iMUt3rZ34DWa7KRl01vPuXxAktuZmCY9+gmoGOm9rsX/KjjtBMmBdDNiSGduWZ5TI67jhB/1z6ix8Jb2DBKUv7CeLwJoWG2cMFfNBCEw+l18xkyHxBab2W/WPMriHN4oEsFCWkyHyeurimtQhFmJM3O/0owGVTx32NfdD1DU2BhCUwa+q75GLf+RUZ8KNtMV8qCsB0NDgXan0TntsnlqyRmaHkRu4k0HytGg8+Q/u88y0s/ftHRoDA=="
+    npx:hasSignature "eq4T4I1VrnFsrTon8YslyMHQZiHVpLpEXWlR1DwARo+qDwyUmiXbLAEQ6za+DvzGIjcKa7mpRuVcFNtSDCits9JEl7mMFGh5pVFU8oh41YzEeO95iQR4RWs1a8CB136f9ZUTrMHaWTjzKLEqLEGBRptF1ySY3p6OgllTNL6ehCSBMhrwFo2PQiB3/+iEwMVGb4nlxoQVgEO79f8MIWlXkgN9fo/+88FFkLssX2aEGhFq8x39FYYbxsdS+LcQqQrP6/5TsFiiq0fllY03GDHlU97UAVdZU4iFWO4LBX6VAFw9GKjEFOOXc3LqHNJkJr0/Sd6QTIGNVF9Cq7EAw5k5iw=="
 }

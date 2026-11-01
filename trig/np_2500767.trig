@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500767/RA4D2QLgQTXd8Y1xqExnaRAVq8hSsvldgo9o-QBLdSghU>.
-@prefix sub: <https://pd.sciai.eu/np/2500767/RA4D2QLgQTXd8Y1xqExnaRAVq8hSsvldgo9o-QBLdSghU/>.
+@prefix this: <https://pd.sciai.eu/np/2500767/RAvlanDk6ibVTQD0PQ_7qSLytxkN_gsRXEBgPAWh3arAk>.
+@prefix sub: <https://pd.sciai.eu/np/2500767/RAvlanDk6ibVTQD0PQ_7qSLytxkN_gsRXEBgPAWh3arAk/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "GLP-2 receptor agonist treatment significantly reduced TNF-α expression in the substantia nigra."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "R4XHkms+nyW3cT90qCKgkR/vHDDaKFYw1uscVLM22cyZrXi7PXDKxNJOCMos1A+la9Q/6KK0RSJgK8Dt40/F0XuCfaDYFpZL/W5ULEaho9EKrp4WAxTEb3dRXuppqOc5J3uirmJYaxgwYWRmMVJ/lwo8TaHPqPEiAf8c7t7evy2tEKqbHgYwGJETPg/K68yH6vltGQbXzkZKZXJq9zO3CFrakIcAQxQIGujENQ6oDZ8rjCouxboA+gPnGi3LVLpOd2X/Dgv9Ag6PyEcgavN6fy/Ui3ZDKt+vmubP9H19xulwj90EQzCk6fpKkaauJnUl54Jvt5/pqCeP6jv6pvdMFg=="
+    npx:hasSignature "Enxic39E85EuCKoLnIsIluDlKQ60vQjYMkAnGdLQoKHjfbwfsarhCGXGIsmYG1XAxfwfs6ylfXf0lLZH8QkU6UYGdCJLwvnEHAb6QwQtwTkM1u+eLJfiRHX3wkpdTtQ6tnvxkngtuhrSoCLQVlTNuG+N9de+2dvA/G1UVHC7ZSgdeegutRKCOERdG48Ld9DGXebdHZBTktbnLoVDofUI6vMIl4nwWUT3Y6IP7X0eU2Gm3O0ib1voFAlXrELoVrU7b6dlB0Lo6J8Mm40uAu+jCM7TUOWiYd/YUpcfgtmOP4qzbjyKO33eEM88yWqEES+bcejKz76mT27kF8alWdTlMQ=="
 }

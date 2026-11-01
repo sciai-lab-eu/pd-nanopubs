@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1875642/RAlKNzFeD6gA-K3yhy33cUz_tq4CBwAMYtdCxmzxl0m9Y>.
-@prefix sub: <https://pd.sciai.eu/np/1875642/RAlKNzFeD6gA-K3yhy33cUz_tq4CBwAMYtdCxmzxl0m9Y/>.
+@prefix this: <https://pd.sciai.eu/np/1875642/RAkL1Am3YetbqtgU2gjWmt0VJ04wGXP-TpjbGNLVYL21w>.
+@prefix sub: <https://pd.sciai.eu/np/1875642/RAkL1Am3YetbqtgU2gjWmt0VJ04wGXP-TpjbGNLVYL21w/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "EX-4 is a GLP-1R agonist."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "lKbDurVbwI3LTAZxOgCfRxsPXWMTgiwMkD0/3B1SKG0xnEDDcOJRfj8QcDEH4Z+w8cDYGfLUARK4h3s/Z7OsgBdqrDWRfgPEpRWQVWJwBPWHxeYPNoJP/EA5nUoqk8HS0r6cAslWs0HNQ7KdldURDQpBi6aHPJvJsYL131566q8mr+qGMZpWHCDaW0xh9j/WUuzQn6lttn8qauo+dtei8PZJoEAxeg6zQtPQtgwh+lDKAnHTSV1m02sXTBtrUvaoHRnZpFDECxaBpZEyvh2rxuwgtb1109TKHLKvMp7hU8jHHhZWLZvWB2+yTYZeB+w+o2UuEeoPZyH57cZs93Zj1w=="
+    npx:hasSignature "DNt5SAEhgKjCRtEymQtfUBiitFkJxbMK4Hzo21wUgrOXZ99vJsEcAed+ZBVKkE+U757NSuGOtXdj2z3CJlho4UgtW49IowNYkCCMxb1zAdvyLws1MB8BHgJ7heHCHYwEOGsYlS+oHrhtWfjd7Dd9mBad/wTvv1wizP1xucye/wix58HsceMkLkr747nC4/yp88jOMPf5QxraecGaWviqXdTkWjbYnOPaFyrvSN0h8U9AJXErIV2byXfEiAWfxiRFR1ExzPhqEZUbCFkQJQZBVBEpLmw6LX1zGOmuBgpHJ687w61L+jeXs4tAnxjNBnGZJKXwDOawgsxVbGPFixH5Gg=="
 }

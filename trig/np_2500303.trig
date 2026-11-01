@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500303/RAzapvoE4ROBHzVsisreIDRX2x9Zew-KlNG1EDBGd-wTI>.
-@prefix sub: <https://pd.sciai.eu/np/2500303/RAzapvoE4ROBHzVsisreIDRX2x9Zew-KlNG1EDBGd-wTI/>.
+@prefix this: <https://pd.sciai.eu/np/2500303/RAYnWv6VTrxbetpaQKEMWpZQqOEhj1W-0JeB7BWlaf5iU>.
+@prefix sub: <https://pd.sciai.eu/np/2500303/RAYnWv6VTrxbetpaQKEMWpZQqOEhj1W-0JeB7BWlaf5iU/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -24,9 +24,9 @@ sub:claim a <https://pd.sciai.eu/ontology/property/Assertion>;
     <https://pd.sciai.eu/ontology/property/hasSubject> <https://pd.sciai.eu/ontology/entity/D000069450>.
 <https://pd.sciai.eu/ontology/entity/D016328> a <https://pd.sciai.eu/ontology/type/Protein>;
     <http://www.w3.org/2000/01/rdf-schema#label> "Nuclear factor-kappa B".
-<https://pd.sciai.eu/ontology/entity/D000069450> a <https://pd.sciai.eu/ontology/type/Concept>;
+<https://pd.sciai.eu/ontology/entity/D000069450> a <https://pd.sciai.eu/ontology/type/Compound>;
     <https://pd.sciai.eu/ontology/relation/decreases> <https://pd.sciai.eu/ontology/entity/D016328>;
-    <http://www.w3.org/2000/01/rdf-schema#label> "liraglutide"
+    <http://www.w3.org/2000/01/rdf-schema#label> "Liraglutide"
 }
 sub:provenance {
 sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21).";
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Liraglutide reduced NF-κB protein levels in the substantia nigra."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "LP/OxU6O8M8KoyQonWNrhL327OTrO3MUvjHwmdVljB2e0TOhNwFOsFFCXJryHnLQg87RMW+/FDekqzLHJ2K4FQCAP+pVIAPM9YCTuoB6ymWU7titNbtcAKGwPccyhzXloz/svy4ES8U3JKYbVCw0OYbjS0/JkuCRkou+pdDv8XqvyomukCzWMdCAPtMskCZCZhR9y74uL7YWexhnkbWSuKq3mBHErvC8iwBVYIaNnr2pWt+jwq6IweojO4xTBua5z5KD9fbNWiPyoqpM/TtK12rsT/M1BlC/mNIQjw8wvOx6RJApv7KeEfzgW0Q2mRd0FhAuwwMPCkVatKMA/lqeWA=="
+    npx:hasSignature "kX+UIr2VW9jOxIRKxFMDCw/KY9NRz6VvFHa8ZCc3TXwdZBzR9CqyzHKIIVlkQwJWZ0Kz42qtaKnevxUXLBqyTL+AA65BWlmf1wPIc05/vMp/XgLOocAkWi8GjN3stECXWoK6WBow25tY+/hV9EZnO58A+1aaCOzyIElCHXQcTh9mqPrdkqzNy1rcpC5RL20gh4ZPhy3D/Tuv00LMPxoyHs9b363k/ZIJdqeblpMV7VoSsDOjaGXHVd0My4rdrLQcRyaf6CqrsBeMfIqCAZThQc1MkHOzAGdDjA57EAsasyKvSCf1fzC8Nlu8ltTc0+3/klj+iVNh9/q5fhGMxsC4XQ=="
 }

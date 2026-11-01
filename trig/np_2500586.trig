@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500586/RAn4nmP06ZeNlcZTnWuDJ0sAOkthDkWeDwuangAQqPc_w>.
-@prefix sub: <https://pd.sciai.eu/np/2500586/RAn4nmP06ZeNlcZTnWuDJ0sAOkthDkWeDwuangAQqPc_w/>.
+@prefix this: <https://pd.sciai.eu/np/2500586/RAXFAD1iGvD7OJ-sCfrwOleqpNqbntx3m190chTEsGDpM>.
+@prefix sub: <https://pd.sciai.eu/np/2500586/RAXFAD1iGvD7OJ-sCfrwOleqpNqbntx3m190chTEsGDpM/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Rotenone administration caused PD-like pathology in rats."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "WYzQfDr+mhFn1vUbBpy3lop2sJvCYV/xG6tO/olvCJGati838DxWJMKAYtlF6galEJebROxAOXFYmLcWbHG/b+5eZITMYiuPXrP7nvazKVZbngoP+kHLtJ8waImLI7VyOMulhlhYXJzXVHYv2Uuf9nj8PDpNIT1gjIUWsoU68W+lyMqqDS5iWnzdQK3Gmtj3TRNmru8o4ILGWbby2NCH6zFL3z0R1pWHt2S6Atxnt4DIpXjvfdyway245qxHqrn0iXk6FJhOESNgASz3DQcstRj62feU/68IMvyMZJxMsdC704B5TBlzXWjpQlMsNGQwklHtSgSTNbzoaxvMoejeqw=="
+    npx:hasSignature "cGPzQ/vFjt7tArLTjWgm3lO/O56EKrHwxLvFklSCh2Duzb+kuJIULKj1dzdAR5WfCBQC8ka1kSsiuFpREiIcmytya+/Ri//j/vr0Cm3QYHCXqs6+l5zMpS5Isixb0cOnmmfJ7QMHmV4y2nU4vP9r9OSPAORIm90aljkY+pG3gTDPa1l0SBIKjmi/kQlZZ7D7LKeFEeVhtaGGTgy+XZqiFl9B7MleZ5klJsadceaE3vOBMvVWRpn6tLtBdN/hMQ1S5QTuPjwnEOC1zrM8ETrMkwOqaFQ7v2rrMtW1GjGpurL0xfJA1h35bxC7o7NRWc05Y9HOWoc4OHaWLzr9Bg8j9A=="
 }

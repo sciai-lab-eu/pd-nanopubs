@@ -44,9 +44,9 @@
 }
 
 <https://pd.sciai.eu/np/1871580/pubinfo> {
-    <https://pd.sciai.eu/np/1871580> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
+    <https://pd.sciai.eu/np/1871580> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
         dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
         prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
 }
 

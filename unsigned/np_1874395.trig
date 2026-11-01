@@ -18,6 +18,20 @@
         sciai:verbatimContext "Rotenone exposure increased apoptosis in cultured neurons." .
 }
 
+<https://pd.sciai.eu/np/1874395/Head> {
+    <https://pd.sciai.eu/np/1874395> a np:Nanopublication ;
+        np:hasAssertion <https://pd.sciai.eu/np/1874395/assertion> ;
+        np:hasProvenance <https://pd.sciai.eu/np/1874395/provenance> ;
+        np:hasPublicationInfo <https://pd.sciai.eu/np/1874395/pubinfo> .
+}
+
+<https://pd.sciai.eu/np/1874395/pubinfo> {
+    <https://pd.sciai.eu/np/1874395> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
+}
+
 <https://pd.sciai.eu/np/1874395/assertion> {
     <https://pd.sciai.eu/np/1874395/claim> a sciai:Assertion ;
         sciai:assertionId 1874395 ;
@@ -34,19 +48,5 @@
 
     <https://pd.sciai.eu/ontology/entity/D017209> a <https://pd.sciai.eu/ontology/type/Mechanism> ;
         rdfs:label "Apoptosis" .
-}
-
-<https://pd.sciai.eu/np/1874395/pubinfo> {
-    <https://pd.sciai.eu/np/1874395> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
-        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
-}
-
-<https://pd.sciai.eu/np/1874395/Head> {
-    <https://pd.sciai.eu/np/1874395> a np:Nanopublication ;
-        np:hasAssertion <https://pd.sciai.eu/np/1874395/assertion> ;
-        np:hasProvenance <https://pd.sciai.eu/np/1874395/provenance> ;
-        np:hasPublicationInfo <https://pd.sciai.eu/np/1874395/pubinfo> .
 }
 

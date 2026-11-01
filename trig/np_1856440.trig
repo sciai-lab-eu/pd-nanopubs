@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1856440/RAAvpn9i2yIw4XDzvTZJrbQnKzJ9DZQsy8fVwtlQMmA8U>.
-@prefix sub: <https://pd.sciai.eu/np/1856440/RAAvpn9i2yIw4XDzvTZJrbQnKzJ9DZQsy8fVwtlQMmA8U/>.
+@prefix this: <https://pd.sciai.eu/np/1856440/RAxZ-9IMYm7P15XWBtH4I32hVihv6SEUeUOPQbzqWxyqg>.
+@prefix sub: <https://pd.sciai.eu/np/1856440/RAxZ-9IMYm7P15XWBtH4I32hVihv6SEUeUOPQbzqWxyqg/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Dopaminergic neurons are located in the substantia nigra."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "AjIApA5pInd3eLrsfjnN/bcVNkwJgFT8emiPIPKPX9Sx7CgUjpZEv03ku76psmQmWAInTlp04eIivHjNFrhrzG1px3/nk0C8Torrfb6AXu6XN3qvGHOdpOdqa+PI7xEvko5Xey945DuLB5AjP+wnn4I/oLVFUF0wBGColcIXEu+l+i7wEJ3FtGjOwuEB1ItyeAhvIVNmZuL8uIkXRCCGSgQmpcPbQU83CV6E52ES2Q4vV/vmwGfZfKzSasTSpboujx92gagi4BAPoRA2r4QD9N2rMNE9fLVCuXlaYmYXO4LZ/sa6pKbcS2w6sfeP7XuvT4uqRQLuc9irYApRikgAQw=="
+    npx:hasSignature "G3Dqc4zfnuL+mU40W85pL3B0nRNwEUiaRcgHOwWCiXs3qQahZhG/uTzmI9rwvMstaUNlmjp5ytgegzCdciHOWxFJQfEmNi+7pGN6aGRIXcLOeCgKM9WXIH3JwQzmJvOSKEl2u+Qv4FW8pTwsdjwwklVY0LVvJJRdzaC+JIFFHs/UFc25jC5qv6fCSnNyllJOMM9dpQJ+/MRZ4S4Xu1yZS4S7zPmcDQaVLUNKVVx+WGPqzPK5ooEK8Qg9q4YpEYF8wAm+SdWKkfNQavT2c7GOzU1a3vrU6O4M8kDU3nnfMi3TfSPreVCUuoppqa1snDVoJXRGLZt/PRGhp77vWNSjdw=="
 }

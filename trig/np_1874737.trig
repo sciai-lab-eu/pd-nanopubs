@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1874737/RAVo2YCathhzLi4UnK_H7LWu4tQ2UrjeHNQycpiaFPfGA>.
-@prefix sub: <https://pd.sciai.eu/np/1874737/RAVo2YCathhzLi4UnK_H7LWu4tQ2UrjeHNQycpiaFPfGA/>.
+@prefix this: <https://pd.sciai.eu/np/1874737/RAILxrVTd_Ji9nsfvHvwqwzp7mfiBovlUmOEvkUn_RpiQ>.
+@prefix sub: <https://pd.sciai.eu/np/1874737/RAILxrVTd_Ji9nsfvHvwqwzp7mfiBovlUmOEvkUn_RpiQ/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Co-administration of (Val8)GLP-1-Glu-PAL with MPTP in mice."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "Q76nl8Qax/mmC/cJX6Sf0LLTEItbnVorTN1G5xvME5yRvTVW2q3kx5g8KuU7qJrQsyhD/6/pNGgtqUtNsQPEaCDMnAg/8zyQA6eUPz8lXPPKKG8a02GEsT1wvF+z13/fg1wnMoPQYSgCMhEwDOWcijzq+YghHRlq/GAHSrYKPLpYIyrxWUfYLsejGV/aR69c1nkpG0SYU7dElOKgp9QRRxTUp/DNRlwuHAc82L0EUIIYbe3gQa6yI2O0SEQdE7SoYuXxEQmppaH/bJMtFoMY+/lxQT96Pwgs3CY44qMR2n9rihiv5+4ILYDKgh3GwVRbrPtMxJYWNTdkdoDeZMkQIA=="
+    npx:hasSignature "OWSLEc2vEoBdU6qWbLO23bLc61MbREEBRzT0V2ifwxk6o/bbq24LfWVAVq2LVarqzX3FjE1ixi144vvDCtKMo0EEkhwX6n6IhN5CZbtS0EJTAArq+bGZ9oDnkkswRGiH3a3lXXQ4/N9b+Jltuq6DMheNlTtpHilohffAdQllNtWiNzGl8fTAGytGCDsi52FgYMjz1PHqMXY2u+X2NRL/DHmGP5U8tVMICcixWuIvyNRBEJdmIvknDZLD/MeS3wcMuuq3ZcCBYhLJr+ZkRPm7lCIpATcU1S0OE+kEFBaPazSybplUMZ+Bj6Oaol/EH9gar2YesCQPK+O1S66h93+/Kg=="
 }

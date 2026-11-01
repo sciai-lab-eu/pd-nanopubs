@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500686/RA5zKUdK7_i1B9u6VbAfEEEUj4YK6vShUI3hLIIhJO6Lw>.
-@prefix sub: <https://pd.sciai.eu/np/2500686/RA5zKUdK7_i1B9u6VbAfEEEUj4YK6vShUI3hLIIhJO6Lw/>.
+@prefix this: <https://pd.sciai.eu/np/2500686/RAUzcVuEqhqTB9GuLByp4XZyS57MpfGj-AMA_t9Aeg5-A>.
+@prefix sub: <https://pd.sciai.eu/np/2500686/RAUzcVuEqhqTB9GuLByp4XZyS57MpfGj-AMA_t9Aeg5-A/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -39,13 +39,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Insulin activates the insulin/IGF-1 signaling pathway to regulate neuronal metabolism and survival."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "PpOjzdWzuoOOW5iIMYjY35j81OwUQSP+icm3CtXlHF/dBA5GbwuOAM7mZ9CwTtTyeVCgCYyzF/R0nWG4jtLcnMhBF4qt6fLGuLRqHpj+M1ymGMw9+72qZrV30kJBS4HkqEEuoiORkyjbEq8/kmGo82V86jcMEXKa2ePRZbFKbt4vGseaPVwgwNmHJ7sBjMnb0xbfiYGrcNt69W0q3RD38Ar+q8lztbFAupSgxq2y/6c4yHsJ/NIX5S5BQ71iEvAGB3cFBrOuMZCvQjClTGuBHOmIlb+nRt4HkhM8mIyQVZX/R0ToVu5W3k4EZkblIYWN69RYQo5dLEQeq4LD8Ozzgw=="
+    npx:hasSignature "G4zbgUvVP7N1yJIpO+TXepj9j3LFYB63TWJ0KZAkjtvG0PN8Xtp4Wnm3qL9xg+LmpTfgx/syw5krf2gep7mHIkopXpz/Tkv8J582b2oQNG2UOjrN7ydAM4D1fXYKiaCVSq3yzaOyGZz987MUuWfjRyCritmKZE4kZ5Rh+LyGZL7k4vaStk0LP0Tp/ukO+fVdWLoGSxxE3RxR9wni9x3bqTXEjn9PXvfK3LT7Abwe4F/++XgcrkgthsRm9RlIXYUy6mu9JgddktC010dyzlKdXOCQqcFH4eW19TBMp8H+4y25fZsrHB1rF9x5zBm/i28D4YdjJsc05rA8Ji5hAWEb/g=="
 }

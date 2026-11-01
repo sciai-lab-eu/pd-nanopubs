@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1874395/RA_CPsmVf9pGOkHtIFplla95_hdf7fIJFpy5PfXbPVu4I>.
-@prefix sub: <https://pd.sciai.eu/np/1874395/RA_CPsmVf9pGOkHtIFplla95_hdf7fIJFpy5PfXbPVu4I/>.
+@prefix this: <https://pd.sciai.eu/np/1874395/RA0yNqfgmplEoctlBjlvxj0k7pPbHK9EOKbBNfenxstHM>.
+@prefix sub: <https://pd.sciai.eu/np/1874395/RA0yNqfgmplEoctlBjlvxj0k7pPbHK9EOKbBNfenxstHM/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Rotenone exposure increased apoptosis in cultured neurons."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "CNi2HQeYMXl5ij4/+7CzOHy2i7dZSRmX/3uSWbRC5g6g9tnOsZ4rge2ufPS+HyRvQaGoEUErUOabrKsBd+fF3lOPzefItGhDTvFOmIHFGTn0k/Xs/IaMJHkW8W2t9LW2b4jw9smDF6tQ43zM+gUh6cCchpPDJtVZ8RxfCdADVyrz4IgMjMKS6XRsxkYhReZEdgG4jWSh3pis0vzVgQ7UoUQIhUdEwd3Ba4s5/9gfmteIrf4a5/Pc7pqJBj6005r64f1nlvUF2IrlVcXIMc0SjlDzeDnHA/pj7j/Y0sKpWaCgDZXDN9mXxGoMdnQrhzz5AdyICXQNCfcOELTZ7FLE2A=="
+    npx:hasSignature "CtQEPl8SDa9iO3KraVoqLDWcg2hcd8a75+23jtgcUu9+z8N/nR63E8Caq4wSU7rgEv4CCqB2atOp8He5bJ7nwxZCdHGXbU9QAE9jQkiNBD9OXL5WeQ3DTCanVVgt5FzcTi7GWhhalIXUQoKUXx8XHBQT7U/AUgxquBLF7qYZMjOSy+WIIQRbTxhquStUgjoqbyhtjaWzIpq2+qnZjn3QG04zrOhb/RtZ3pi6wSGkMcOArfxFZly9Tb14HBVzx9aaXw/zvQomlcLW04vwLKkmhc7aaff/PLuWwOwjMOuavtN9WXBy3Amhj/UCLUo2BHF2wL49pE1kGJdTY6ZHUthkaQ=="
 }

@@ -6,23 +6,18 @@
 @prefix sciai: <https://pd.sciai.eu/ontology/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://pd.sciai.eu/np/2500646/provenance> {
-    <https://pd.sciai.eu/np/2500646/assertion> rdfs:comment "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21)." ;
-        prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/26302060/> ;
-        prov:wasGeneratedBy <https://sciai.eu/#sciai-lab> ;
-        sciai:evidenceStateLabel "supported" ;
-        sciai:extractedAt "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime ;
-        sciai:extractionSchema "universal_pd_v5" ;
-        sciai:paperType "animal_study" ;
-        sciai:species "Mus musculus" ;
-        sciai:verbatimContext "Oxy treatment prevented MPTP-induced reduction in TH levels in substantia nigra and basal ganglia." .
+<https://pd.sciai.eu/np/2500646/pubinfo> {
+    <https://pd.sciai.eu/np/2500646> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
 }
 
-<https://pd.sciai.eu/np/2500646/pubinfo> {
-    <https://pd.sciai.eu/np/2500646> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
-        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
+<https://pd.sciai.eu/np/2500646/Head> {
+    <https://pd.sciai.eu/np/2500646> a np:Nanopublication ;
+        np:hasAssertion <https://pd.sciai.eu/np/2500646/assertion> ;
+        np:hasProvenance <https://pd.sciai.eu/np/2500646/provenance> ;
+        np:hasPublicationInfo <https://pd.sciai.eu/np/2500646/pubinfo> .
 }
 
 <https://pd.sciai.eu/np/2500646/assertion> {
@@ -36,17 +31,22 @@
         sciai:hasSubject <https://pd.sciai.eu/ontology/entity/C000609716> .
 
     <https://pd.sciai.eu/ontology/entity/C000609716> a <https://pd.sciai.eu/ontology/type/Compound> ;
-        rdfs:label "D-Ser2-oxyntomodulin (Oxy)" ;
+        rdfs:label "D-Ser2-Oxyntomodulin" ;
         ns1:increases <https://pd.sciai.eu/ontology/entity/D014446> .
 
     <https://pd.sciai.eu/ontology/entity/D014446> a <https://pd.sciai.eu/ontology/type/Protein> ;
         rdfs:label "Tyrosine hydroxylase (TH)" .
 }
 
-<https://pd.sciai.eu/np/2500646/Head> {
-    <https://pd.sciai.eu/np/2500646> a np:Nanopublication ;
-        np:hasAssertion <https://pd.sciai.eu/np/2500646/assertion> ;
-        np:hasProvenance <https://pd.sciai.eu/np/2500646/provenance> ;
-        np:hasPublicationInfo <https://pd.sciai.eu/np/2500646/pubinfo> .
+<https://pd.sciai.eu/np/2500646/provenance> {
+    <https://pd.sciai.eu/np/2500646/assertion> rdfs:comment "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21)." ;
+        prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/26302060/> ;
+        prov:wasGeneratedBy <https://sciai.eu/#sciai-lab> ;
+        sciai:evidenceStateLabel "supported" ;
+        sciai:extractedAt "2026-09-07T05:17:32.123070+00:00"^^xsd:dateTime ;
+        sciai:extractionSchema "universal_pd_v5" ;
+        sciai:paperType "animal_study" ;
+        sciai:species "Mus musculus" ;
+        sciai:verbatimContext "Oxy treatment prevented MPTP-induced reduction in TH levels in substantia nigra and basal ganglia." .
 }
 

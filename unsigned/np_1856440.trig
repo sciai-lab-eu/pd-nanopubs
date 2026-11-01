@@ -7,28 +7,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://pd.sciai.eu/np/1856440/pubinfo> {
-    <https://pd.sciai.eu/np/1856440> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
+    <https://pd.sciai.eu/np/1856440> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
         dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
         prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
-}
-
-<https://pd.sciai.eu/np/1856440/assertion> {
-    <https://pd.sciai.eu/np/1856440/claim> a sciai:Assertion ;
-        sciai:assertionId 1856440 ;
-        sciai:confidence 0.95 ;
-        sciai:effectDirection "neutral" ;
-        sciai:evidenceTier 3 ;
-        sciai:hasObject <https://pd.sciai.eu/ontology/entity/D013378> ;
-        sciai:hasRelation ns1:located_in ;
-        sciai:hasSubject <https://pd.sciai.eu/ontology/entity/D059290> .
-
-    <https://pd.sciai.eu/ontology/entity/D059290> a <https://pd.sciai.eu/ontology/type/CellType> ;
-        rdfs:label "Dopaminergic neurons" ;
-        ns1:located_in <https://pd.sciai.eu/ontology/entity/D013378> .
-
-    <https://pd.sciai.eu/ontology/entity/D013378> a <https://pd.sciai.eu/ontology/type/BrainRegion> ;
-        rdfs:label "Substantia nigra" .
 }
 
 <https://pd.sciai.eu/np/1856440/provenance> {
@@ -48,5 +30,23 @@
         np:hasAssertion <https://pd.sciai.eu/np/1856440/assertion> ;
         np:hasProvenance <https://pd.sciai.eu/np/1856440/provenance> ;
         np:hasPublicationInfo <https://pd.sciai.eu/np/1856440/pubinfo> .
+}
+
+<https://pd.sciai.eu/np/1856440/assertion> {
+    <https://pd.sciai.eu/np/1856440/claim> a sciai:Assertion ;
+        sciai:assertionId 1856440 ;
+        sciai:confidence 0.95 ;
+        sciai:effectDirection "neutral" ;
+        sciai:evidenceTier 3 ;
+        sciai:hasObject <https://pd.sciai.eu/ontology/entity/D013378> ;
+        sciai:hasRelation ns1:located_in ;
+        sciai:hasSubject <https://pd.sciai.eu/ontology/entity/D059290> .
+
+    <https://pd.sciai.eu/ontology/entity/D059290> a <https://pd.sciai.eu/ontology/type/CellType> ;
+        rdfs:label "Dopaminergic neurons" ;
+        ns1:located_in <https://pd.sciai.eu/ontology/entity/D013378> .
+
+    <https://pd.sciai.eu/ontology/entity/D013378> a <https://pd.sciai.eu/ontology/type/BrainRegion> ;
+        rdfs:label "Substantia nigra" .
 }
 

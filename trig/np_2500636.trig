@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2500636/RADq33-gtUf4TayE1e8D7ur-bPkaFfDIClPlSQCVhlXXc>.
-@prefix sub: <https://pd.sciai.eu/np/2500636/RADq33-gtUf4TayE1e8D7ur-bPkaFfDIClPlSQCVhlXXc/>.
+@prefix this: <https://pd.sciai.eu/np/2500636/RA3FaZXzdgihQ4W5KiSf7LP4TYNr-zUg02P-8odY5mEqU>.
+@prefix sub: <https://pd.sciai.eu/np/2500636/RA3FaZXzdgihQ4W5KiSf7LP4TYNr-zUg02P-8odY5mEqU/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -38,13 +38,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Vildagliptin suppressed RAGE overexpression induced by rotenone in the striatum."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "h8YtIKXEp0lhlUyx0yeB3F1EqQWcNDX5AFSHs9HIU5jn7EV6f+VvqtBPQyNW5RSdstlyubfqLLXF0buE70UOJaF5hXyZ4XuxND9UuK6ej7qnIVTjDO05TxZrMLP3V2UJlJMxfs7MnIAAU5FEDwNEgLSOxgwEleeJErbWuHQTF1BdDbHFmYKmJXBi4fTqRo6PtmD10WlGRsh3UyPpVeooWgM/RPgpyNSUFf4e5wyFN9sZMb7VJDkzM45aEq2ariN/fC02Dgr5DGu2q+Nw3rohFN/jlxRx11lCshT+eboUWvMup05F/41IhKncDt2nvZaa60n1ugbM0J7vZoUz8XU5qQ=="
+    npx:hasSignature "khQ7rpmnWtLLsdSgUzWAHKBPBILJ7G9RGY635EqgRekOcbyXyXOQHaaEUls7fTX/lDBiWpKx/2QRauJlzFRNOCCRkGbX5cEZzQbdImbeI7JFJ6h33YWtifN0Uz69bTiyTpzi+3FJjTI+dLXu+8OsDn+V19rHOURLgD3scpO8dDWGxiZZ7JToV/ZaPPCigm575sGDr7BnKA/znsXwvtyrcl28HpYWJUmK4b0wQuST1WRWcrI3XKHomjmyVo2hhWqtH/DDQi8KoRVWhbFuojsPkA2cyB99VsWyqAZ3VaD9EikA4HjJQq3dCuhj8d4m2UCBR2CAjcMamUuoyTxzbRo1zw=="
 }

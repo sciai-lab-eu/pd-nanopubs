@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/2003460/RAZl6FZSUQcjvOFDbXVW8vTaeciYP1gpYfsvn1CbV_s2k>.
-@prefix sub: <https://pd.sciai.eu/np/2003460/RAZl6FZSUQcjvOFDbXVW8vTaeciYP1gpYfsvn1CbV_s2k/>.
+@prefix this: <https://pd.sciai.eu/np/2003460/RAgpVEjXqeFV0_DERn7Gi1qwsw0EmuIIu2lP0pj-z564s>.
+@prefix sub: <https://pd.sciai.eu/np/2003460/RAgpVEjXqeFV0_DERn7Gi1qwsw0EmuIIu2lP0pj-z564s/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Exendin-4 attenuated dysregulation of the PI3K/Akt/mTOR pathway."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "NVQEHlD4TAxNqTni4vbblmYNMnLP1pjCdCeWYvGXFYqSwPTt8WM3kqTnCsFut9FSN0Kvoj7qoqI6tRONpVfXhJbA1kk1ghivKMsd4O6IhE/nSjIU9Wdt5J5U2SwlLNqRxdRpkEA7+jwEt3zxNo6siGBm4QDA0aSeLpkt7G7My+xxZHdIEeI/7GjOYErnTDvW/ijqrhHiZ3eLQ5mtt8yRbfj7hXZzsHSbqVlDstGOq3oLSQx4MaEeBNmvWgZThYkLoz0XU8+Ij3rlpL0mjLOIh5smyUZlUeBel2X65Nd7bcPTGlceOzTfQ9YJG+KYMZr193Rt+0pAR7ew3hHCCs4gYA=="
+    npx:hasSignature "lB+HjWO7rknlswmFrj6EUNt6+DH/n6DY+Pz60OPO9nF3mn0CuZ9YcfJrp6kUIg2xWRLmH0CEWoyfNnPr/7hmX7Tow1+5a7yIVBQ2DNI9JvNWQ66RB0+QlRH4yTeRE5aMEDe++U5Ffi4m/4kGzhgzYdlP1jwo7JhHGZKbIQknKs1sYZii0JCUp9MJfZ6rGQ/MWtQsbhRNf6uOpOSw+SXartvq8r9E9YVpkc1sDXH3GpltDt7P1P2uWBIw54rxR35396WFBDfRh98hZuSIoPQAD/Lr7AFt1mLw9cQGVWozOvcDB4KgvKut28sWzIhUfvxeRWmG5QZe4PZv6MMj0AWF0w=="
 }

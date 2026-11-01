@@ -6,20 +6,6 @@
 @prefix sciai: <https://pd.sciai.eu/ontology/property/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://pd.sciai.eu/np/2003458/Head> {
-    <https://pd.sciai.eu/np/2003458> a np:Nanopublication ;
-        np:hasAssertion <https://pd.sciai.eu/np/2003458/assertion> ;
-        np:hasProvenance <https://pd.sciai.eu/np/2003458/provenance> ;
-        np:hasPublicationInfo <https://pd.sciai.eu/np/2003458/pubinfo> .
-}
-
-<https://pd.sciai.eu/np/2003458/pubinfo> {
-    <https://pd.sciai.eu/np/2003458> dct:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime ;
-        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
-        dct:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
-}
-
 <https://pd.sciai.eu/np/2003458/provenance> {
     <https://pd.sciai.eu/np/2003458/assertion> rdfs:comment "Evidence-state label of the citing paper within the GLP-1 pilot corpus (207 papers; supported / contested / single-source / unlabeled), computed from cross-paper agreement over kg.assertions with author-overlap independence exclusions (v2, 2026-09-21)." ;
         prov:wasDerivedFrom <https://pubmed.ncbi.nlm.nih.gov/33723752/> ;
@@ -30,6 +16,13 @@
         sciai:paperType "animal_study" ;
         sciai:species "Rattus norvegicus" ;
         sciai:verbatimContext "Exendin-4 is a GLP-1 analogue that stimulates the GLP-1 receptor." .
+}
+
+<https://pd.sciai.eu/np/2003458/Head> {
+    <https://pd.sciai.eu/np/2003458> a np:Nanopublication ;
+        np:hasAssertion <https://pd.sciai.eu/np/2003458/assertion> ;
+        np:hasProvenance <https://pd.sciai.eu/np/2003458/provenance> ;
+        np:hasPublicationInfo <https://pd.sciai.eu/np/2003458/pubinfo> .
 }
 
 <https://pd.sciai.eu/np/2003458/assertion> {
@@ -48,5 +41,12 @@
 
     <https://pd.sciai.eu/ontology/entity/D000067757> a <https://pd.sciai.eu/ontology/type/Protein> ;
         rdfs:label "GLP-1 receptor" .
+}
+
+<https://pd.sciai.eu/np/2003458/pubinfo> {
+    <https://pd.sciai.eu/np/2003458> dct:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime ;
+        dct:creator <https://orcid.org/0009-0008-6409-2596> ;
+        dct:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        prov:wasAttributedTo <https://sciai.eu/#sciai-lab> .
 }
 

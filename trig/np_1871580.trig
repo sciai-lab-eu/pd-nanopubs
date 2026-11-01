@@ -1,5 +1,5 @@
-@prefix this: <https://pd.sciai.eu/np/1871580/RA4FgH1Q6XNkd4uE_lZS0ynG9dO5mdta_vPAlLTHss8BQ>.
-@prefix sub: <https://pd.sciai.eu/np/1871580/RA4FgH1Q6XNkd4uE_lZS0ynG9dO5mdta_vPAlLTHss8BQ/>.
+@prefix this: <https://pd.sciai.eu/np/1871580/RAM1HHAEk3kSFVlalnYr5tUyJEbUwB1xBAjIVAXRHa7pE>.
+@prefix sub: <https://pd.sciai.eu/np/1871580/RAM1HHAEk3kSFVlalnYr5tUyJEbUwB1xBAjIVAXRHa7pE/>.
 @prefix np: <http://www.nanopub.org/nschema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
@@ -40,13 +40,13 @@ sub:assertion <http://www.w3.org/2000/01/rdf-schema#comment> "Evidence-state lab
     <https://pd.sciai.eu/ontology/property/verbatimContext> "Ferroptosis leads to loss of dopaminergic neurons in the substantia nigra."
 }
 sub:pubinfo {
-this: dc:created "2026-10-15T06:16:10+00:00"^^xsd:dateTime;
+this: dc:created "2026-11-01T23:44:02+00:00"^^xsd:dateTime;
     dc:creator <https://orcid.org/0009-0008-6409-2596>;
-    dc:license <https://creativecommons.org/licenses/by-nc/4.0/>;
+    dc:license <https://creativecommons.org/licenses/by-sa/4.0/>;
     prov:wasAttributedTo <https://sciai.eu/#sciai-lab>.
 sub:sig npx:hasAlgorithm "RSA";
     npx:hasPublicKey "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAue9vOX5dKoq10xIymUPOABZ9s5VpMfPmWPaP1EuEWDBGCZ6KSqSRzNMEV6gx25xrLXtXQWEzmWevAK5+1KIz3WFaPgN2fqDdKxqh+1A0F1JkKa06N5d/fGgVIW44ws34XS9p+W3Aoa5pRbUKIWkJmcABtBWZ/66SEJjBJ/zDvvN6urJmUzefUq4h8hU3FOTwJ6YEwrdRp0fhpGeo/BIFWziZ6A3Q6jLEZ1e2YFqY2oL2U+LPiyt9BeM7plnXgBC2ZvfHu9JKoLoGh6hW6d0wkMYAnJU+jKN6Ij/DMTmkLgmDvRhs3f73O5IgaATsiZc4yux5BhNJBlTN3YpZqd0dYQIDAQAB";
     npx:hasSignatureTarget this:;
     npx:signedBy <https://orcid.org/0009-0008-6409-2596>;
-    npx:hasSignature "Mo54S8ljHFapirOA2OnW75drcJnyoBBpLu1R62jO3F/DOD+Rm6U4yzlTFDbxHm7o4Wlm5cyA79tlGnQor2Ijw2/5ntl0ugCMRbsHKEvOrDdF+Xd2EcgsxhgvGtaNc8YmzD2YRzSlqv9RWWU4QNy1RMOKhtsXzgtA7c2siCmLaHqm/BSRTKHOfJXTKw+PwJZHZPR8So7qdGLEf/380ZKzOZPygcrzWMzur+lUykq+rYTnGD7FrSVngOvjDSdCOaharnJ25agioJHleqAQ8NiZHVCoghzjRNd2aFtsT3DgJXmrT83GJjoWWIL+x/tFavBm4Gnyxxx7QVsJvMV+hpsUKw=="
+    npx:hasSignature "sNIZ0yU0zfdHHZA0Pli8AjhS8WRDdxUUpgH66B3m3zP9e5+LpfyCiEArOSq6lfsNRjqTFC/lMX/2AGV2ASmYpI1f7p3CZcDnHDqJ4tzvcWXeLSRJqBzCz+pL8067jJF1GaE6GXN1R2qyRl04ZBXtlYNjeHr5aHy9gJE1YE5Ym4sHZzIT5CkMbOG6v9PEU/CYhdmCQDVkuRMVvmFIbrTW2Viqq0Gjcs0MpVCvPX+9XLgCP7Yf/EGmWRzspykx5xPTJYhFXex4TR7o4M+I90z1geFp6XFHNWRG1bjksznhQANkJhbUF6EjSwj9/cNiRlI0sn83I+tho9z/AyspHQHeZw=="
 }
