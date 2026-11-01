@@ -69,7 +69,7 @@ NP = Namespace("http://www.nanopub.org/nschema#")
 PROV = Namespace("http://www.w3.org/ns/prov#")
 SCIAI = Namespace(f"{PROP_IRI}/")
 CREATOR_ORCID = URIRef("https://orcid.org/0009-0008-6409-2596")
-LICENSE_CC_BY_NC = URIRef("https://creativecommons.org/licenses/by-nc/4.0/")
+LICENSE_CC_BY_SA = URIRef("https://creativecommons.org/licenses/by-sa/4.0/")
 SCIAI_LAB = URIRef("https://sciai.eu/#sciai-lab")
 
 EVIDENCE_STATE_NOTE = (
@@ -274,7 +274,7 @@ def build_nanopub(row: dict, label: str, name: str | None, names: dict[str, str]
     # --- pubinfo graph ---
     g = ds.graph(pubinfo_g)
     g.add((this, DCTERMS.creator, CREATOR_ORCID))
-    g.add((this, DCTERMS.license, LICENSE_CC_BY_NC))
+    g.add((this, DCTERMS.license, LICENSE_CC_BY_SA))
     g.add((this, DCTERMS.created, Literal(now, datatype=XSD.dateTime)))
     g.add((this, PROV.wasAttributedTo, SCIAI_LAB))
     return ds

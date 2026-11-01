@@ -58,7 +58,7 @@ Standard four-graph layout (`Head` / `assertion` / `provenance` /
 - **provenance** — `prov:wasDerivedFrom` the PubMed IRI, `verbatimContext`
   (the exact source sentence), `extractionSchema`, `paperType`, `species`,
   `extractedAt`, and the `evidenceStateLabel`.
-- **pubinfo** — creator ORCID, CC BY-NC 4.0 license, RSA signature
+- **pubinfo** — creator ORCID, CC BY-SA 4.0 license, RSA signature
   (`npx:hasSignature`), signed with a demo key (production would use the
   ORCID-linked key + introduction nanopub).
 
@@ -96,5 +96,5 @@ trusty URI.
 
 ## License
 
-Data (the nanopublications): **CC BY-NC 4.0** (see LICENSE).
+Data (the nanopublications): **CC BY-SA 4.0** (see LICENSE) — share-alike instead of non-commercial (changed 2026-11-01): commercial use allowed, derived databases must be shared alike. Generator code (`sciai_nanopub.py`): MIT.
 Code: MIT (the generator scripts).
